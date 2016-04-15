@@ -37,6 +37,7 @@ function sumArray(someArray) {
   //console.log('"' + someArray + ' was passed in as an array of numbers, and ' + sum + ' is their sum"');
 }
 
+//wonderfull function name
 function productArray(someArray) {
   var product = 1;
   for (var i = 0; i < someArray.length; i++) {
