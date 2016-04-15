@@ -24,3 +24,12 @@ function sumArray(someArray) {
   console.table(someArray);
   console.log('"' + someArray + ' was passed in as an array of numbers, and ' + sum + ' is their sum"');
 }
+
+function productArray(someArray) {
+  var product = 1;
+  for (var i = 0; i < someArray.length; i++) {
+    product = product * (someArray[i]);
+  }
+  console.table(someArray);
+  console.log('"' + 'The numbers ' + someArray + ' have a product of ' + product + '"');
+}
